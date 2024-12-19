@@ -231,7 +231,7 @@ h6 {
   }
 
   .navmenu button:hover {
-    background-color: greenyellow;
+    background-color: #ff9e35;
   }
 
   .navmenu .dropdown ul {
@@ -702,8 +702,6 @@ section,
 }
 
 @media (min-width: 1024px) {
-  .hero p {
-  }
 
   .hero .carousel-control-prev,
   .hero .carousel-control-next {
@@ -1074,4 +1072,43 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
+}
+
+.clients {
+  padding:0;
+}
+
+.clients .swiper {
+  height: 120px;
+  padding: 10px 0;
+}
+
+@media (max-width: 1025px) {
+
+  
+.clients .swiper {
+  height: 110px;
+  padding: 10px 0;
+}
+
+}
+
+@media (max-width: 426px) {
+  .clients .swiper {
+    height: 90px;
+    padding: 10px 0;
+  }
+}
+
+.clients .swiper-wrapper {
+  height: auto;
+}
+
+.clients .swiper-slide img {
+  max-height: 60px;
+  transition: 0.3s;
+}
+
+.clients .swiper-slide img:hover {
+  transform: scale(1.1);
 }

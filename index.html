@@ -32,21 +32,23 @@
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- Meta Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '397564225303174');
-  fbq('track', 'PageView');
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '397564225303174');
+    fbq('track', 'PageView');
   </script>
   <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=397564225303174&ev=PageView&noscript=1"
-  /></noscript>
+      src="https://www.facebook.com/tr?id=397564225303174&ev=PageView&noscript=1" /></noscript>
   <!-- End Meta Pixel Code -->
 </head>
 
@@ -65,7 +67,7 @@
           <li><a href="#services">Serviços</a></li>
           <li><a href="#portfolio">Portfólio</a></li>
           <li><a href="#contact">Contato</a></li>
-          <li><a href="https://wa.me/5511959948362" target="_blank"><button>Orçamento rápido</button></a></li>
+          <li><a href="https://wa.me/5511959948362" target="_blank"><button>Orçamento rápido<img src="assets/img/whatsapp-btn.svg" width="40px" style="padding-left: 10px;"></button></a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -84,11 +86,12 @@
         <div class="carousel-item active">
           <div class="carousel-container">
             <div class="hero-item">
-              <h2 class="animate__animated animate__fadeInDown">Carnaval 2025<br>Abadás Personalizados</h2>
-              <p class="animate__animated animate__fadeInUp">A alegria do <strong>Carnaval 2025</strong> vai contagiar a
-                todos com abadás personalizados!</p>
+              <h2 class="animate__animated animate__fadeInDown">Carnaval com estilo e economia!</h2>
+              <p class="animate__animated animate__fadeInUp">Abadás personalizados direto da fábrica, com preço
+                imbatível, qualidade garantida e entrega ágil. Prepare seu bloco para <strong>brilhar</strong> e marcar
+                presença no <strong>Carnaval</strong>!</p>
               <a href="https://wa.me/5511959948362" target="_blank"
-                class="btn-get-started animate__animated animate__fadeInUp scrollto">Peça já o seu!</a>
+                class="btn-get-started animate__animated animate__fadeInUp scrollto">Fale Conosco <img src="assets/img/whatsapp-btn.svg" width="40px" style="padding-left: 10px;"></a>
             </div>
             <div class="hero-item">
               <img class="animate__animated animate__fadeInUp" src="assets/img/hero-img2.png" width="350px">
@@ -101,9 +104,10 @@
           <div class="carousel-container">
             <div class="hero-item">
               <h2 class="animate__animated animate__fadeInDown">Wind Banners<br>Personalizados</h2>
-              <p class="animate__animated animate__fadeInUp">O <strong>destaque</strong> do seu negócio começa aqui!</p>
+              <p class="animate__animated animate__fadeInUp"><strong>Extremamente</strong> eficaz para atrair a atenção
+                do público! Simples de montar, altíssimo impacto visual e excelente custo-benefício.</p>
               <a href="https://wa.me/5511959948362" target="_blank"
-                class="btn-get-started animate__animated animate__fadeInUp scrollto">Peça já o seu!</a>
+                class="btn-get-started animate__animated animate__fadeInUp scrollto">Fale Conosco <img src="assets/img/whatsapp-btn.svg" width="40px" style="padding-left: 10px;"></a>
             </div>
             <div class="hero-item">
               <img class="animate__animated animate__fadeInUp" src="assets/img/hero-img3.png" width="400px">
@@ -115,11 +119,11 @@
         <div class="carousel-item">
           <div class="carousel-container">
             <div class="hero-item">
-              <h2 class="animate__animated animate__fadeInDown">Toalhas<br>Sob Demanda</h2>
-              <p class="animate__animated animate__fadeInUp">Lindos <strong>personalizados</strong> para o seu negócio
-                crescer ainda mais!</p>
+              <h2 class="animate__animated animate__fadeInDown">Toalhas de banho<br>Personalizadas</h2>
+              <p class="animate__animated animate__fadeInUp">O brinde que <strong>encanta!</strong> Qualidade,
+                exclusividade e um toque especial para marcar momentos inesquecíveis.</p>
               <a href="https://wa.me/5511959948362" target="_blank"
-                class="btn-get-started animate__animated animate__fadeInUp scrollto">Peça já o seu!</a>
+                class="btn-get-started animate__animated animate__fadeInUp scrollto">Fale Conosco <img src="assets/img/whatsapp-btn.svg" width="40px" style="padding-left: 10px;"></a>
             </div>
             <div class="hero-item">
               <img class="animate__animated animate__fadeInUp" src="assets/img/hero-img1.png" width="500px">
@@ -155,6 +159,71 @@
 
     </section><!-- /Hero Section -->
 
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 2000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true,
+                "dynamicBullets": true,
+            "dynamicMainBullets": 4
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 30
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 40
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 60
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 60
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/1-italinea.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/2-pao-de-acucar.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/3-cacau-show.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/4-ortobom.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/5-lubrax.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/6-petrobras.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/7-subway.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/8-rsf.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/9-consigaz.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/10-havaianas.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/11-ultragaz.jpg" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
 
 
 
@@ -165,15 +234,17 @@
       <div class="container section-title" data-aos="fade-up">
         <h2>Sobre</h2>
         <p class="services-title">Quem Somos</p>
-        <p class="services-text">Desde 2019, a <strong>JV Brindes</strong> se destaca no mercado de brindes personalizados, oferecendo soluções criativas para
-          uso corporativo. </p>
+        <p class="services-text">Desde 2021, somos especialistas em transformar ideias em produtos únicos e criativos
+          que refletem a identidade e os valores de nossos clientes. Nossa história começou atendendo o mercado de
+          brindes em geral, mas rapidamente nos destacamos ao nos especializar em impressão de tecidos e personalização
+          de alta qualidade para empresas, agências de propaganda e consumidores finais.</p>
         <p class="services-text">
-          Nossa missão é transformar ideias em produtos únicos, que reflitam a identidade e os valores de nossos
-          clientes, garantindo satisfação e impacto. Seja para datas comemorativas, promoções ou eventos especiais, cada
-          detalhe é pensado para criar experiências memoráveis que encantam e fidelizam.</p>
+          Nosso compromisso é oferecer soluções completas, desde a criação até a entrega. Trabalhamos com uma ampla
+          linha de produtos, como Abadás, Toalhas de Banho, Cangas, Camisetas, Roupões, Sacochilas, Wind Banners e muito
+          mais, desenvolvidos para eventos, promoções e datas especiais.</p>
         <p class="services-text">
-          Nossa linha de produtos inclui: <strong>Wind Banners, Abadás, Toalhas de Banho, Cangas, Camisetas, Roupões de Banho,
-            Chinelos, Sacochilas, Capas de Antena, Almofadas e Muito Mais!</strong></p>
+          Confie na JV Brindes para transformar sua ideia em uma experiência memorável. Qualidade, criatividade e
+          agilidade, tudo em um só lugar!</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -185,8 +256,12 @@
               <div class="icon">
                 <img src="assets/img/icon-personalizacao.svg">
               </div>
-                <h3>Personalização</h3>
-              <p>Desenvolvemos soluções inovadoras e exclusivas, adaptadas às necessidades específicas de cada cliente.</p>
+              <h3>Sublimação Personalizada</h3>
+              <p>Oferecemos soluções criativas e exclusivas em sublimação, personalizando uma ampla gama de produtos de
+                acordo com as necessidades e preferências de cada cliente. Desde brindes corporativos até presentes
+                personalizados, transformamos suas ideias em realidade, proporcionando qualidade, durabilidade e um
+                toque único a cada item.
+              </p>
             </div>
           </div><!-- End Service Item -->
 
@@ -195,8 +270,11 @@
               <div class="icon">
                 <img src="assets/img/icon-compromisso.svg">
               </div>
-                <h3>Compromisso</h3>
-              <p>Prezamos pela entrega no tempo combinado, porque entendemos a importância de cumprir as expectativas do seu evento ou campanha.</p>
+              <h3>Compromisso</h3>
+              <p>Comprometidos com a sua satisfação, garantimos a entrega pontual, pois sabemos o quanto o cumprimento
+                de prazos é essencial para o sucesso do seu evento ou campanha. A confiança que você deposita em nós é
+                nossa prioridade, e trabalhamos com dedicação para superar suas expectativas, oferecendo sempre
+                qualidade, confiabilidade e excelência em cada projeto.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -205,12 +283,13 @@
               <div class="icon">
                 <img src="assets/img/icon-competitivo.svg">
               </div>
-                <h3>Preço Competitivo</h3>
-              <p>Alinhamos qualidade, personalização e custo-benefício para entregar produtos que se encaixam no seu orçamento.</p>
+              <h3>Preço Competitivo</h3>
+              <p>Alinhamos qualidade, personalização e custo-benefício para entregar produtos que se encaixam no seu
+                orçamento.</p>
             </div>
           </div><!-- End Service Item -->
 
-          
+
 
         </div>
 
@@ -225,13 +304,12 @@
 
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-xl-9 text-center text-xl-start">
-            <h3>Call To Action</h3>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.</p>
+            <h3>Fale conosco</h3>
+            <p>Transforme seu evento ou campanha com nossos produtos personalizados!<br>Entre em contato agora e tire
+              suas dúvidas – estamos aqui para criar algo único para você!"</p>
           </div>
           <div class="col-xl-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="https://wa.me/5511959948362" target="_blank">Whatsapp <img src="assets/img/whatsapp-btn.svg" width="40px" style="padding-left: 10px;"></a>
           </div>
         </div>
 
@@ -253,7 +331,7 @@
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-         <!--  <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+          <!--  <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-app">App</li>
             <li data-filter=".filter-product">Card</li>
@@ -267,19 +345,19 @@
               <div class="portfolio-info">
                 <h4>Personalizados</h4>
                 <p></p>
-                <a href="assets/img/portfolio/6-roupao.png" title="Personalizados"
-                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/portfolio/6-roupao.png" title="Personalizados" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"></a>
               </div>
             </div><!-- End Portfolio Item -->
-    
+
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <img src="assets/img/portfolio/2-abada.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Personalizados</h4>
                 <p></p>
-                <a href="assets/img/portfolio/2-abada.jpg" title="Personalizados"
-                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/portfolio/2-abada.jpg" title="Personalizados" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"></a>
               </div>
             </div><!-- End Portfolio Item -->
@@ -288,8 +366,8 @@
               <div class="portfolio-info">
                 <h4>Personalizados</h4>
                 <p></p>
-                <a href="assets/img/portfolio/3-toalha.jpg" title="Personalizados"
-                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/portfolio/3-toalha.jpg" title="Personalizados" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"></a>
               </div>
             </div><!-- End Portfolio Item -->
@@ -308,8 +386,8 @@
               <div class="portfolio-info">
                 <h4>Personalizados</h4>
                 <p></p>
-                <a href="assets/img/portfolio/4-canga.png" title="Personalizados"
-                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/portfolio/4-canga.png" title="Personalizados" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"></a>
               </div>
             </div><!-- End Portfolio Item -->
@@ -323,14 +401,14 @@
                 <a href="portfolio-details.html" title="More Details" class="details-link"></a>
               </div>
             </div><!-- End Portfolio Item -->
-            
+
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <img src="assets/img/portfolio/7-chinelo.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Personalizados</h4>
                 <p></p>
-                <a href="assets/img/portfolio/7-chinelo.png" title="Personalizados"
-                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/portfolio/7-chinelo.png" title="Personalizados" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"></a>
               </div>
             </div><!-- End Portfolio Item -->
@@ -349,8 +427,8 @@
               <div class="portfolio-info">
                 <h4>Personalizados</h4>
                 <p></p>
-                <a href="assets/img/portfolio/9-capa.png" title="Personalizados"
-                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/portfolio/9-capa.png" title="Personalizados" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"></a>
               </div>
             </div><!-- End Portfolio Item -->
@@ -379,8 +457,8 @@
               <div class="portfolio-info">
                 <h4>Personalizados</h4>
                 <p></p>
-                <a href="assets/img/portfolio/12-copo.png" title="Personalizados"
-                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/portfolio/12-copo.png" title="Personalizados" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"></a>
               </div>
             </div><!-- End Portfolio Item -->
@@ -389,8 +467,8 @@
               <div class="portfolio-info">
                 <h4>Personalizados</h4>
                 <p></p>
-                <a href="assets/img/portfolio/13-totem.png" title="Personalizados"
-                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/portfolio/13-totem.png" title="Personalizados" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"></a>
               </div>
             </div><!-- End Portfolio Item -->
@@ -409,8 +487,8 @@
               <div class="portfolio-info">
                 <h4>Personalizados</h4>
                 <p></p>
-                <a href="assets/img/portfolio/15-lenço.png" title="Personalizados"
-                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/portfolio/15-lenço.png" title="Personalizados" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"></a>
               </div>
             </div><!-- End Portfolio Item -->
@@ -449,11 +527,11 @@
               <div class="portfolio-info">
                 <h4>Personalizados</h4>
                 <p></p>
-                <a href="assets/img/portfolio/19-cooler.png" title="Personalizados"
-                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/portfolio/19-cooler.png" title="Personalizados" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"></a>
               </div>
-            </div><!-- End Portfolio Item -->           
+            </div><!-- End Portfolio Item -->
 
           </div><!-- End Portfolio Container -->
 
@@ -482,7 +560,7 @@
               <i class="bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Telefone | WhatsApp</h3>
-                <p>(11) 9 5994-8362</p>
+                <a href="https://wa.me/5511959948362" target="_blank"><p>(11) 9 5994-8362</p></a>
               </div>
             </div><!-- End Info Item -->
 
@@ -490,7 +568,7 @@
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>E-mail</h3>
-                <p>contato@jvbrindes.com.br</p>
+                <a href="mailto:contato@jvbrindes.com.br"><p>contato@jvbrindes.com.br</p></a>
               </div>
             </div><!-- End Info Item -->
 
@@ -549,8 +627,7 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <a href="https://wa.me/5511959948362" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><img src="assets/img/whatsapp-btn.svg" width="40px"></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
