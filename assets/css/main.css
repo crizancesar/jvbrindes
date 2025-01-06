@@ -1079,6 +1079,7 @@ section,
 }
 
 .clients .swiper {
+  background: white;
   height: 120px;
   padding: 10px 0;
 }
