@@ -664,6 +664,10 @@ section,
   animation-delay: 0.4s;
 }
 
+.hero-img {
+  width: 80%;
+}
+
 .hero .carousel-control-prev,
 .hero .carousel-control-next {
   width: 10%;
@@ -714,8 +718,23 @@ section,
     min-height: 90vh;
   }
 
+  .hero-item {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+  }
+
   .hero h2 {
-    font-size: 28px;
+    font-size: 20px;
+  }
+  
+  .hero p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .hero-img {
+    width: 100%;
   }
 }
 
