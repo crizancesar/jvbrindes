@@ -907,6 +907,20 @@ section,
   }
 }
 
+@media (max-width: 768px) {
+  .services {
+    padding: 20px;
+  }
+  .services .services-title {
+    font-size: 20px;
+  }
+  .services .services-text {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
